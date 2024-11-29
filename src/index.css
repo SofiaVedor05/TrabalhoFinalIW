@@ -1,0 +1,105 @@
+/* Estilo do corpo */
+body {
+  background-image: url('imagens/imagem_fundo.webp'); /* Caminho para a imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a página */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  margin: 0; /* Remove as margens padrão */
+  font-family: Arial, sans-serif; /* Fonte padrão para o texto */
+  height: 100vh; /* Garante que o corpo ocupe a altura total da janela */
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilo do contêiner de login */
+.login-container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Fundo branco semi-transparente */
+  padding: 40px 30px; /* Adiciona mais espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte */
+  width: 350px; /* Largura maior para o contêiner */
+}
+
+/* Estilo do botão */
+button {
+  padding: 15px 30px; /* Botão maior */
+  font-size: 18px; /* Texto maior no botão */
+  background-color: #007BFF; /* Cor de fundo azul */
+  color: white; /* Texto branco */
+  border: none; /* Remove bordas padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+  transition: background-color 0.3s ease; /* Adiciona transição suave */
+}
+
+/* Estilo para hover no botão */
+button:hover {
+  background-color: #0056b3; /* Altera a cor ao passar o mouse */
+}
+
+/* Estilo do texto "login" */
+h2 {
+  font-size: 36px; /* Aumenta o tamanho do texto */
+  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+/* Estilo do texto "bem-vindo" */
+h1 {
+  font-size: 50px; /* Tamanho do texto maior */
+  text-align: center; /* Centraliza horizontalmente */
+  margin-top: 20px; /* Espaço do topo */
+  margin-bottom: 50px; /* Espaço abaixo do título */
+  color: white; /* Adiciona uma cor de contraste para o fundo */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona sombra ao texto */
+}
+
+/* Estilo dos campos de entrada */
+input {
+  width: 90%; /* Campos mais largos */
+  padding: 15px; /* Adiciona mais espaço interno */
+  margin-bottom: 15px; /* Espaçamento entre os campos */
+  border: 1px solid #ccc; /* Bordas simples */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 18px; /* Fonte maior */
+}
+
+
+.logout-button {
+  position: absolute; /* Posiciona em relação ao contêiner pai */
+  top: 20px; /* Distância do topo */
+  right: 20px; /* Distância do lado esquerdo */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  font-size: 16px; /* Tamanho do texto */
+  background-color: #007BFF; /* Fundo azul */
+  color: white; /* Texto branco */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+/* Estilo ao passar o mouse */
+.logout-button:hover {
+  background-color: #0056b3; /* Escurece o botão ao passar o mouse */
+}
+
+
+.home-page {
+  width: 100vw; /* Largura total da janela */
+  height: 100vh; /* Altura total da janela */
+  margin: 0; /* Remove margens padrão */
+  background-color: #938f8feb; /* Fundo escuro */
+  color: white; /* Texto branco */
+  display: flex; /* Ativa flexbox */
+  flex-direction: column; /* Alinha itens verticalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  text-align: center; /* Centraliza o texto */
+}
+
+
+
+
+
+
